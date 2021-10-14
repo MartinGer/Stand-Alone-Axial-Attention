@@ -18,8 +18,6 @@ Furthermore they extend the positional encoding from query-pixels also to the ke
 ## Implementation details
 I only tested the implementation with ResNet50 for now. The used ResNet V1.5 architectures are adapted from https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
 
-The positional-encoding is adapted from the original implementation at https://github.com/google-research/deeplab2
-
 The paper notes *In order to avoid careful initialization of WQ, WK, WV , rq, rk, rv, we use batch normalizations in all attention layers.* Consequently two batch normalization layers are applied.
 
 #### Additional Parameters:
