@@ -15,6 +15,8 @@ Furthermore they extend the positional encoding from query-pixels also to the ke
 
 ![axial formula](https://user-images.githubusercontent.com/19909320/119897545-dd819000-bf40-11eb-955b-54cbdab1635d.png)
 
+![Axial](https://user-images.githubusercontent.com/19909320/137499768-5042eccf-fcc8-4894-bc5a-9fe7ce342165.png)
+
 ## Implementation details
 I only tested the implementation with ResNet50 for now. The used ResNet V1.5 architectures are adapted from https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py
 
